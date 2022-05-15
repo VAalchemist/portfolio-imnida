@@ -8,30 +8,35 @@ import {
 
 export default function Footer() {
   return (
-    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
+    <div className='max-w-[1240px] mx-auto py-20 px-4 grid lg:grid-cols-3 gap-8 bg-slate-800 text-gray-300'>
       
       <div className='flex justify-between'>
-        <h1 className='w-full text-3xl font-bold m-4 text-[#00df9a]'>Made with stuff</h1>
+        <h1 className='w-full font-bold m-4 text-[#00df9a]'>Made with stuff</h1>
         <p className='py-4 font-medium text-teal-400'>stuff here for the footer</p>
       </div>
 
-      <div className='lg:col-span-2 flex justify-between mt-6'>
-        <div>
-          <a href='https://github.com/VAalchemist' className=''><FaGithubSquare size={25}/></a>
-        </div>
+      {/* socials */}
+      <ul className='lg:col-span-2 flex  justify-between md:mt-6'>
+        <li className='text-stone-500 flex flex-col hover:mt-[-10px] duration-300'>
+          <a href='https://github.com/VAalchemist' className='ml-2 pb-2'><FaGithubSquare size={30} /></a>
+          <p>GitHub</p>
+        </li>
 
-        <div>          
-          <a href='https://www.linkedin.com/in/charlene-kim-1a9a72226/'><FaLinkedinIn size={25}/></a>
-        </div>
+        <li className='text-stone-500 flex flex-col hover:mt-[-10px] duration-300'>
+          <a href='https://www.linkedin.com/in/charlene-kim-1a9a72226/' className='ml-2 pb-2'><FaLinkedinIn size={30} /></a>
+          <p>LinkedIn</p>
+        </li>
 
-        <div>
-          <a href='https://stackoverflow.com/users/17519926/char' className=''><FaStackOverflow size={25}/></a>
-        </div>
+        <li className='text-stone-500 flex flex-col hover:mt-[-10px] duration-300'>
+          <a href='https://stackoverflow.com/users/17519926/char' className='ml-8 pb-2'><FaStackOverflow size={30} /></a>
+          <p>StackOverflow</p>
+        </li>
 
-        <div>
-          <a href='https://discord.com/channels/@VAalchemist#3634' className=''><FaDiscord size={25}/></a>
-        </div>
-      </div>      
+        <li  className='text-stone-500 flex flex-col hover:mt-[-10px] duration-300'>
+          <a href='https://discord.com/channels/@VAalchemist#3634' className='ml-2 pb-2'><FaDiscord size={30} /></a>
+          <p>Discord</p>
+        </li>
+      </ul>    
     </div>
   )
 }
