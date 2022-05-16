@@ -7,7 +7,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed bg-teal-900 w-full h-[80px] flex justify-between items-center px-4 text-stone-300 font-medium'>            
+    <div className='fixed bg-teal-900 w-full h-[70px] flex justify-between items-center px-4 text-stone-300 font-medium'>            
       <div>
         <img src={Logo} alt="my initials" style={{ width: '90px' }} />
       </div>
@@ -33,8 +33,6 @@ const Navbar = () => {
           <li className='py-6 text-3xl'>Contact</li>
           <li className='py-6 text-3xl'>Resume</li>
       </ul>
-
-
     </div>
 
     
