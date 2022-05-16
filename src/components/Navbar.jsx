@@ -7,7 +7,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed bg-slate-800 w-full h-[80px] flex justify-between items-center px-4 text-stone-300 font-medium'>            
+    <div className='fixed bg-teal-900 w-full h-[80px] flex justify-between items-center px-4 text-stone-300 font-medium'>            
       <div>
         <img src={Logo} alt="my initials" style={{ width: '90px' }} />
       </div>
@@ -15,7 +15,6 @@ const Navbar = () => {
       
       {/* menu */}      
         <ul className='hidden md:flex '>
-          <li className='text-stone-500 font-bold text-xl'>Charlene Kim</li>
           <li>About</li>
           <li>Portfolio</li>
           <li>Contact</li>
@@ -28,8 +27,7 @@ const Navbar = () => {
       </div>
 
       {/* mobile menu */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-slate-800 flex flex-col justify-center items-center'}>
-        <li className='py-6 text-4xl text-stone-500 font-bold'>Charlene Kim</li>
+      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-teal-900 flex flex-col justify-center items-center'}>
           <li className='py-6 text-3xl'>About</li>
           <li className='py-6 text-3xl'>Portfolio</li>
           <li className='py-6 text-3xl'>Contact</li>

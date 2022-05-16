@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 function Resume() {
   return (
@@ -15,7 +16,10 @@ function Resume() {
           <p>Node | Express JS | TDD | OOP | MySQL | Sequelize | MongoDB | Mongoose | REST API | GraphQL | Git | Heroku | MVC | PWA | </p>
         </div>
 
-        <div>You can download my resume here!</div>
+        <div className='w-full h-[160px] flex flex-col justify-center items-center px-4 py-4 text-stone-500'>
+          <a href='https://github.com/VAalchemist' className= 'hover:text-cyan-800 hover:mt-[-10px] duration-300 '><BsFillPersonLinesFill size={30} /></a>
+          <p className='font-semibold'>You can download my resume here!</p>
+        </div>
       </div>
     </>
   )
