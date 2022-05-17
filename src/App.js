@@ -13,9 +13,10 @@ function App() {
       <Navbar />
       {/* <Home /> */}
       {/* <About /> */}
-      {/* <Footer /> */}
-
       <Resume />
+      {/* <Portfolio /> */}
+      {/* <Footer /> */}
+      
     </div>
   );
 }

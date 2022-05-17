@@ -8,13 +8,13 @@ function Resume() {
         
         <h1 className='text-[#fdd978] tracking-widest font-bold text-4xl sm:text-6xl py-2'>Proficiencies</h1>
 
-        <div className='flex flex-col justify-center items-center bg-teal-900 w-full mt-16'>
-          <div className='text-[#ffc9dc] text-center md:text-lg lg:text-xl mx-4 py-4 max-w-[700px]'>
+        <div className='flex flex-col sm:flex-row justify-center items-center bg-teal-900 w-full mt-16'>
+          <div className='text-[#ffc9dc] text-center md:text-lg lg:text-xl mx-4 py-6 max-w-[700px]'>
             <h2 className='text-lg font-bold'>Front-End</h2>
             <p>| HTML | CSS(Tailwind) | JavaScript | Git/Github | React | Responsive Design |</p>
           </div>
 
-          <div className='text-[#ffc9dc] text-center md:text-lg lg:text-xl mx-4 py-4 max-w-[700px]'>
+          <div className='text-[#ffc9dc] text-center md:text-lg lg:text-xl mx-4 py-6 max-w-[700px]'>
             <h2 className='text-lg font-bold'>Back-End</h2>
             <p>| Node | Express JS | TDD | OOP | MySQL | MongoDB | GraphQL | Heroku | PWA | </p>
             </div>
