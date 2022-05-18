@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {
   FaGithubSquare,
   FaStackOverflow,
@@ -6,9 +6,11 @@ import {
   FaDiscord
 } from 'react-icons/fa';
 
-export default function Footer() {
+
+function Footer() {
   return (
-    <div className='w-full mx-auto py-20 px-4 grid lg:grid-cols-3 gap-8 bg-slate-800 text-gray-300'>
+    <div>
+      <div className='w-full mx-auto py-20 px-4 grid lg:grid-cols-3 gap-8 bg-slate-800 text-gray-300'>
       
       <div className='flex justify-between'>
         <h1 className='w-full font-bold m-4 text-[#00df9a]'>Made with stuff</h1>
@@ -38,5 +40,8 @@ export default function Footer() {
         </li>
       </ul>    
     </div>
+    </div>
   )
 }
+
+export default Footer;

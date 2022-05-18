@@ -9,7 +9,7 @@ import Six from '../assets/six.png';
 
 const Portfolio = () => {
   return (
-    <div className='w-full h-screen flex flex-col justify-center items-center bg-teal-900 pt-28'>
+    <div name="portfolio" className='w-full md:h-screen flex flex-col justify-center items-center bg-teal-900 sm:pt-28'>
       <div className='flex flex-col justify-center items-center bg-teal-900 w-full mt-16'>
 
         <div>
@@ -41,4 +41,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Portfolio;

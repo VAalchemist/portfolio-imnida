@@ -4,7 +4,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 function Resume() {
   return (
     <>
-      <div className='w-full h-screen flex flex-col justify-center items-center bg-teal-900 pt-20'>
+      <div name="resume" className='w-full h-screen flex flex-col justify-center items-center bg-teal-900 pt-20'>
         
         <h1 className='text-[#fdd978] tracking-widest font-bold text-4xl sm:text-6xl py-2'>Proficiencies</h1>
 
@@ -29,4 +29,4 @@ function Resume() {
   )
 }
 
-export default Resume
+export default Resume;
