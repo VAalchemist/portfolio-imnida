@@ -1,15 +1,15 @@
 import React from 'react';
 import One from '../assets/one.png';
-// import Two from '../assets/two.png';
-// import Three from '../assets/three.jpg';
-// import Four from '../assets/four.jpg';
-// import Five from '../assets/five.jpg';
-// import Six from '../assets/six.png';
+import Two from '../assets/two.png';
+import Three from '../assets/three.jpg';
+import Four from '../assets/four.jpg';
+import Five from '../assets/five.jpg';
+import Six from '../assets/six.png';
 
 
 const Portfolio = () => {
   return (
-    <div name="portfolio" className='w-full md:h-screen bg-teal-900 '>
+    <div name="portfolio" className='w-full lg:h-screen h-full bg-teal-900 '>
       
       {/* container start */}
       <div className='max-width-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -52,22 +52,22 @@ const Portfolio = () => {
           {/* card item */}
 
           {/* card item */}
-          <div style={{backgroundImage: `url(${One})`}}
+          <div style={{backgroundImage: `url(${Two})`}}
             className='shadow-lg shadow-stone-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* hover fx */}
               <div className='opacity-0 group-hover:opacity-100 '>                
-                <span className='text-2xl font-bold text-white tracking-wider'>
+                <span className='text-2xl font-bold text-[#8d767e] tracking-wider'>
                   Redact JS Application
                 </span>
 
                 <div className='pt-8 text-center'>
                   <a href="/">
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                    <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg'>Demo</button>
                   </a>
 
                   <a href="/">
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                    <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg'>Code</button>
                   </a>
                 </div>
               </div>
@@ -77,22 +77,22 @@ const Portfolio = () => {
           {/* card item */}
 
           {/* card item */}
-          <div style={{backgroundImage: `url(${One})`}}
+          <div style={{backgroundImage: `url(${Three})`}}
             className='shadow-lg shadow-stone-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* hover fx */}
               <div className='opacity-0 group-hover:opacity-100 '>                
-                <span className='text-2xl font-bold text-white tracking-wider'>
+                <span className='text-2xl font-bold text-[#8d767e] tracking-wider'>
                   Redact JS Application
                 </span>
 
                 <div className='pt-8 text-center'>
                   <a href="/">
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                    <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg'>Demo</button>
                   </a>
 
                   <a href="/">
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                    <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg'>Code</button>
                   </a>
                 </div>
               </div>
@@ -102,22 +102,22 @@ const Portfolio = () => {
           {/* card item */}
 
           {/* card item */}
-          <div style={{backgroundImage: `url(${One})`}}
+          <div style={{backgroundImage: `url(${Four})`}}
             className='shadow-lg shadow-stone-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* hover fx */}
               <div className='opacity-0 group-hover:opacity-100 '>                
-                <span className='text-2xl font-bold text-white tracking-wider'>
+                <span className='text-2xl font-bold text-[#8d767e] tracking-wider'>
                   Redact JS Application
                 </span>
 
                 <div className='pt-8 text-center'>
                   <a href="/">
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                    <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg'>Demo</button>
                   </a>
 
                   <a href="/">
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                    <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg'>Code</button>
                   </a>
                 </div>
               </div>
@@ -127,22 +127,22 @@ const Portfolio = () => {
           {/* card item */}
 
           {/* card item */}
-          <div style={{backgroundImage: `url(${One})`}}
+          <div style={{backgroundImage: `url(${Five})`}}
             className='shadow-lg shadow-stone-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* hover fx */}
               <div className='opacity-0 group-hover:opacity-100 '>                
-                <span className='text-2xl font-bold text-white tracking-wider'>
+                <span className='text-2xl font-bold text-[#8d767e] tracking-wider'>
                   Redact JS Application
                 </span>
 
                 <div className='pt-8 text-center'>
                   <a href="/">
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                    <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg'>Demo</button>
                   </a>
 
                   <a href="/">
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                    <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg'>Code</button>
                   </a>
                 </div>
               </div>
@@ -152,22 +152,22 @@ const Portfolio = () => {
           {/* card item */}
 
           {/* card item */}
-          <div style={{backgroundImage: `url(${One})`}}
+          <div style={{backgroundImage: `url(${Six})`}}
             className='shadow-lg shadow-stone-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* hover fx */}
               <div className='opacity-0 group-hover:opacity-100 '>                
-                <span className='text-2xl font-bold text-white tracking-wider'>
+                <span className='text-2xl font-bold text-[#8d767e] tracking-wider'>
                   Redact JS Application
                 </span>
 
                 <div className='pt-8 text-center'>
                   <a href="/">
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                    <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg'>Demo</button>
                   </a>
 
                   <a href="/">
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                    <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg'>Code</button>
                   </a>
                 </div>
               </div>
