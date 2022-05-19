@@ -12,12 +12,10 @@ function About() {
     <div className='flex flex-col justify-center items-center w-full h-full'>
     <div className='max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8'>
 
-      <div className='sm:text-right pb-6 md:pb-16 pl-4'p>
-        <h1 className='text-[#fdd978] text-4xl sm:text-6xl mt-12 font-bold sm:inline tracking-wide'>About Me!</h1>        
-      </div>
-          
-          <div></div>
-          
+    <div className='sm:text-right pb-6 md:pb-16 pl-4'p>
+      <h1 className='text-[#fdd978] text-4xl sm:text-6xl mt-12 font-bold sm:inline tracking-wide'>About Me!</h1>        
+    </div>          
+          <div></div>         
     </div>
           <div className='max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-2'>
             
