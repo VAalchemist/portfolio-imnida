@@ -1,5 +1,7 @@
 import React from 'react';
 import Me from '../assets/avatar2.png';
+// imported on each component that will be using it
+// import Typed from 'react-typed';
 
 
 function About() {
@@ -24,7 +26,11 @@ function About() {
             </div>
 
           <div>
-            <p className='text-[#ffc9dc] text-center md:text-lg lg:text-xl mx-4 py-2 max-w-[700px]'>From the eclectic array of interests I acquired  throughout the decades of my existence, full stack development has eagerly entered  my arsenal of skills. My professional path has taken me through many twists and turns, yet I've always sought challenges and opportunities that are meaningful to me. If I'm not tickling the ivory key caps, you can find me skillfully enjoying :word transitions: singing, voice acting, gaming, sewing, eating</p>
+            <p className='text-[#ffc9dc] text-center md:text-lg lg:text-xl mx-4 py-2 max-w-[700px]'>From the eclectic array of interests I acquired  throughout the decades of my existence, full stack development has eagerly entered  my arsenal of skills. My professional path has taken me through many twists and turns, yet I've always sought challenges and opportunities that are meaningful to me. If I'm not tickling the ivory key caps, you can find me skillfully enjoying
+              {/* <Typed 
+
+              /> */}
+              :word transitions: singing, voice acting, gaming, sewing, eating</p>
 
           </div>  
           
