@@ -9,7 +9,7 @@ import One from '../assets/one.png';
 
 const Portfolio = () => {
   return (
-    <div name="portfolio" className='w-full h-screen bg-teal-900'>
+    <div name="portfolio" className='w-full md:h-full h-screen bg-teal-900'>
       {/* container */}
 
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -41,12 +41,11 @@ const Portfolio = () => {
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-stone-400 text-cyan-700 font-bold text-lg'>Code</button>
                   </a>
                 </div>
-
               </div>
             </div>
-
           </div>
         </div>
+
         
       </div>            
     </div>
