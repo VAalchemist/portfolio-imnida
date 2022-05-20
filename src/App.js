@@ -1,20 +1,22 @@
-// import About from "./components/About";
-// import Footer from "./components/Footer";
+// import Navbar from "./components/Navbar";
 // import Home from "./components/Home";
-import Navbar from "./components/Navbar";
+// import About from "./components/About";
 // import Resume from "./components/Resume";
-import Portfolio from "./components/Portfolio";
+// import Portfolio from "./components/Portfolio";
+// import Contact from "./components/Contact";
+// import Footer from "./components/Footer";
 
 
 function App() {
   return (
     <>
       
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <Home /> */}
       {/* <About /> */}
       {/* <Resume /> */}
-      <Portfolio />
+      {/* <Portfolio /> */}
+      {/* <Contact /> */}
       {/* <Footer /> */}
       
     </>

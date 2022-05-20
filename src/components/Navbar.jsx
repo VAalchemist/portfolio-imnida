@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../assets/initials.png';
 
@@ -14,11 +14,11 @@ const Navbar = () => {
 
       
       {/* menu */}      
-        <ul className='hidden md:flex '>
-          <li>About</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
-          <li>Resume</li>
+        <ul className='hidden md:flex text-stone-300'>
+          <li className='hover:font-semibold'>About</li>
+          <li className='hover:font-semibold'>Portfolio</li>
+          <li className='hover:font-semibold'>Contact</li>
+          <li className='hover:font-semibold'>Resume</li>
         </ul>
 
       {/* hamburger */}
@@ -28,10 +28,10 @@ const Navbar = () => {
 
       {/* mobile menu */}
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-teal-900 flex flex-col justify-center items-center'}>
-          <li className='py-6 text-3xl'>About</li>
-          <li className='py-6 text-3xl'>Portfolio</li>
-          <li className='py-6 text-3xl'>Contact</li>
-          <li className='py-6 text-3xl'>Resume</li>
+          <li onClick={handleClick} className='py-6 text-3xl text-stone-400 text-shadow-lg hover:text-stone-500'>About</li>
+          <li onClick={handleClick} className='py-6 text-3xl text-stone-400 text-shadow-lg hover:text-stone-500'>Portfolio</li>
+          <li onClick={handleClick} className='py-6 text-3xl text-stone-400 text-shadow-lg hover:text-stone-500'>Contact</li>
+          <li onClick={handleClick} className='py-6 text-3xl text-stone-400 text-shadow-lg hover:text-stone-500'>Resume</li>
       </ul>
     </div>
 

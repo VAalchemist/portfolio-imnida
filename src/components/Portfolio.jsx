@@ -163,11 +163,11 @@ const Portfolio = () => {
 
                 <div className='pt-8 text-center'>
                   <a href="/">
-                    <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg'>Demo</button>
+                    <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg hover:text-shadow-md'>Demo</button>
                   </a>
 
                   <a href="/">
-                    <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg'>Code</button>
+                    <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg hover:text-shadow-md'>Code</button>
                   </a>
                 </div>
               </div>
