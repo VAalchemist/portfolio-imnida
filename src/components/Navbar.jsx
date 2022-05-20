@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../assets/initials.png';
 
@@ -9,17 +9,17 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[70px] flex justify-between items-center px-4 bg-teal-900 text-stone-300 font-medium'>            
-      <Link to="/">
+      <NavLink to="/">
         <img src={Logo} alt="my initials" style={{ width: '80px' }} />
-      </Link>
+      </NavLink>
 
       
       {/* menu */}      
       <ul className='hidden md:flex text-stone-300 gap-2'>          
-          <Link to="/about" className='hover:font-semibold'>About</Link>
-          <Link to="/portfolio" className='hover:font-semibold'>Portfolio</Link>
-          <Link to="/contact" className='hover:font-semibold'>Contact</Link>
-          <Link to="/resume" className='hover:font-semibold'>Resume</Link>
+          <NavLink to="/about" className='hover:font-semibold'>About</NavLink>
+          <NavLink to="/portfolio" className='hover:font-semibold'>Portfolio</NavLink>
+          <NavLink to="/contact" className='hover:font-semibold'>Contact</NavLink>
+          <NavLink to="/resume" className='hover:font-semibold'>Resume</NavLink>
         </ul>
 
       {/* hamburger */}

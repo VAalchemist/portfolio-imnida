@@ -32,3 +32,8 @@
     hsla(198, 35%, 15%, 0.904)
   )!important;
 }
+
+ul a.active {
+  padding: 0px 5px ;
+  border-bottom: 2px solid rgb(178, 176, 124);
+}
