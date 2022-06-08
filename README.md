@@ -1,6 +1,13 @@
 
 # Welcome to my REACT portfolio
 
+
+
+# Snapshots
+![demo shot](src/assets/snap1.PNG)
+
+![demo shot](src/assets/snap2.PNG)
+
 ![](https://img.shields.io/badge/REACT-purple.svg)
 ![](https://img.shields.io/badge/Javascript-yellow.svg)
 ![](https://img.shields.io/badge/Node.js-green.svg)
@@ -15,7 +22,7 @@
 
 
 # Description
- Show casing my knowledge of REACT with a display of my portfolio. Check it out [here!]()
+ Show casing my knowledge of REACT with a display of my portfolio. Check it out [here!](https://vaalchemist.github.io/portfolio-imnida/)
 
 
 # Installation
@@ -28,12 +35,6 @@
    * Followed by: 
        * <code>npm install</code>
    * Run react app: <code>npm start</code>
-
-# Snapshots
-![]()
-
-![]()
-
 
 
 # Packages Used

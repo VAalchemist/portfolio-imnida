@@ -33,7 +33,7 @@ const Portfolio = () => {
             {/* hover fx */}
               <div className='opacity-0 group-hover:opacity-100 group-hover:duration-500'>                
                 <span className='text-2xl font-bold text-[#8d767e] tracking-wider'>
-                 Forged Ensemble
+                Forged Ensemble
                 </span>
 
                 <div className='pt-8 text-center'>
