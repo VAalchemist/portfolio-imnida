@@ -1,10 +1,10 @@
 import React from 'react';
-import One from '../assets/one.png';
-import Two from '../assets/two.png';
-import Three from '../assets/three.jpg';
-import Four from '../assets/four.jpg';
-import Five from '../assets/five.jpg';
-import Six from '../assets/six.png';
+import One from '../assets/one.PNG';
+import Two from '../assets/two.PNG';
+import Three from '../assets/three.PNG';
+import Four from '../assets/four.PNG';
+import Five from '../assets/five.PNG';
+import Six from '../assets/six.PNG';
 
 
 const Portfolio = () => {
@@ -33,15 +33,15 @@ const Portfolio = () => {
             {/* hover fx */}
               <div className='opacity-0 group-hover:opacity-100 group-hover:duration-500'>                
                 <span className='text-2xl font-bold text-[#8d767e] tracking-wider'>
-                  Redact JS Application
+                 Forged Ensemble
                 </span>
 
                 <div className='pt-8 text-center'>
-                  <a href="/">
+                  <a href="https://forged-ensemble.herokuapp.com">
                     <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg hover:text-shadow-md'>Demo</button>
                   </a>
 
-                  <a href="/">
+                  <a href="https://github.com/VAalchemist/forged-ensemble">
                     <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg hover:text-shadow-md'>Code</button>
                   </a>
                 </div>
@@ -58,15 +58,15 @@ const Portfolio = () => {
             {/* hover fx */}
               <div className='opacity-0 group-hover:opacity-100 '>                
                 <span className='text-2xl font-bold text-[#8d767e] tracking-wider'>
-                  Redact JS Application
+                  Look Book Engine
                 </span>
 
                 <div className='pt-8 text-center'>
-                  <a href="/">
+                  <a href="https://look-book-engine.herokuapp.com/">
                     <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg hover:text-shadow-md'>Demo</button>
                   </a>
 
-                  <a href="/">
+                  <a href="https://github.com/VAalchemist/look-book-engine">
                     <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg hover:text-shadow-md'>Code</button>
                   </a>
                 </div>
@@ -83,15 +83,15 @@ const Portfolio = () => {
             {/* hover fx */}
               <div className='opacity-0 group-hover:opacity-100 '>                
                 <span className='text-2xl font-bold text-[#8d767e] tracking-wider'>
-                  Redact JS Application
+                  Techh Talk
                 </span>
 
                 <div className='pt-8 text-center'>
-                  <a href="/">
+                  <a href="https://techhtalk.herokuapp.com/">
                     <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg hover:text-shadow-md'>Demo</button>
                   </a>
 
-                  <a href="/">
+                  <a href="https://github.com/VAalchemist/techh-talk">
                     <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg hover:text-shadow-md'>Code</button>
                   </a>
                 </div>
@@ -108,15 +108,15 @@ const Portfolio = () => {
             {/* hover fx */}
               <div className='opacity-0 group-hover:opacity-100 '>                
                 <span className='text-2xl font-bold text-[#8d767e] tracking-wider'>
-                  Redact JS Application
+                  Track Ur Cash
                 </span>
 
                 <div className='pt-8 text-center'>
-                  <a href="/">
+                  <a href="https://track-ur-cash.herokuapp.com/">
                     <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg hover:text-shadow-md'>Demo</button>
                   </a>
 
-                  <a href="/">
+                  <a href="https://github.com/VAalchemist/track-ur-cash">
                     <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg hover:text-shadow-md hover:text-shadow-xl'>Code</button>
                   </a>
                 </div>
@@ -133,15 +133,15 @@ const Portfolio = () => {
             {/* hover fx */}
               <div className='opacity-0 group-hover:opacity-100 '>                
                 <span className='text-2xl font-bold text-[#8d767e] tracking-wider'>
-                  Redact JS Application
+                  Duty Call
                 </span>
 
                 <div className='pt-8 text-center'>
-                  <a href="/">
+                  <a href="https://young-thicket-71102.herokuapp.com/">
                     <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg hover:text-shadow-md'>Demo</button>
                   </a>
 
-                  <a href="/">
+                  <a href="https://github.com/VAalchemist/CASK-inc">
                     <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg hover:text-shadow-md'>Code</button>
                   </a>
                 </div>
@@ -158,15 +158,15 @@ const Portfolio = () => {
             {/* hover fx */}
               <div className='opacity-0 group-hover:opacity-100 '>                
                 <span className='text-2xl font-bold text-[#8d767e] tracking-wider'>
-                  Redact JS Application
+                  KLEC Pokedex
                 </span>
 
                 <div className='pt-8 text-center'>
-                  <a href="/">
+                  <a href="https://vaalchemist.github.io/KLEC-search-inc/">
                     <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg hover:text-shadow-md'>Demo</button>
                   </a>
 
-                  <a href="/">
+                  <a href="https://github.com/VAalchemist/KLEC-search-inc ">
                     <button className='text-center rounded-lg px-3 py-2 m-2 bg-stone-400 text-cyan-700 font-bold text-lg hover:text-shadow-md'>Code</button>
                   </a>
                 </div>
