@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
+// import Home from "./Home";
 import Logo from '../assets/initials.png';
 
 const Navbar = () => {
@@ -28,11 +29,11 @@ const Navbar = () => {
       </div>
 
       {/* mobile menu */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-teal-900 flex flex-col justify-center items-center'}>
-          <li onClick={handleClick} className='py-6 text-3xl text-stone-400 text-shadow-lg hover:text-stone-500'>About</li>
-          <li onClick={handleClick} className='py-6 text-3xl text-stone-400 text-shadow-lg hover:text-stone-500'>Portfolio</li>
-          <li onClick={handleClick} className='py-6 text-3xl text-stone-400 text-shadow-lg hover:text-stone-500'>Contact</li>
-          <li onClick={handleClick} className='py-6 text-3xl text-stone-400 text-shadow-lg hover:text-stone-500'>Resume</li>
+      <ul className={!nav ? 'hidden' : 'fixed top-0 left-0 w-full h-screen bg-teal-900 flex flex-col justify-center items-center'}>
+          <Link onClick={handleClick} to="/about" className='py-6 text-3xl text-stone-400 text-shadow-lg hover:text-stone-500'>About</Link>
+          <Link onClick={handleClick} to="/portfolio" className='py-6 text-3xl text-stone-400 text-shadow-lg hover:text-stone-500'>Portfolio</Link>
+          <Link onClick={handleClick} to="/contact" className='py-6 text-3xl text-stone-400 text-shadow-lg hover:text-stone-500'>Contact</Link>
+          <Link onClick={handleClick} to="/resume" className='py-6 text-3xl text-stone-400 text-shadow-lg hover:text-stone-500'>Resume</Link>
       </ul>
     </div>
 

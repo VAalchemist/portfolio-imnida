@@ -22,7 +22,7 @@ function Resume() {
 
         <div className='w-full h-[160px] flex sm:flex-row flex-col justify-center items-center px-4 py-4 text-stone-500'>
           <p className='font-semibold pr-4  tracking-wide'>You can download my resume here!</p>
-          <a href='https://github.com/VAalchemist' className= 'hover:text-[#fdd978] hover:mt-[-5px] md:hover:mt-[-10px] duration-300 '><BsFillPersonLinesFill size={30} /></a>          
+          <a href={process.env.PUBLIC_URL + "/Charlene Kim Resume 2022.pdf"} className= 'hover:text-[#fdd978] hover:mt-[-5px] md:hover:mt-[-10px] duration-300 '><BsFillPersonLinesFill size={30} /></a>          
         </div>      
       </div>
     </>
