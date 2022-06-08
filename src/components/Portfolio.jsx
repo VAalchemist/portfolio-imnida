@@ -9,7 +9,7 @@ import Six from '../assets/six.PNG';
 
 const Portfolio = () => {
   return (
-    <div name="portfolio" className='w-full lg:h-screen h-full bg-teal-900 '>
+    <div name="portfolio" className='w-full md:h-screen h-full bg-teal-900 '>
       
       {/* container start */}
       <div className='max-width-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
