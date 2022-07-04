@@ -13,11 +13,11 @@ const Home = () => {
         <h2 className='text-[#ffc9dc] text-3xl sm:text-7xl pb-4'>I'm an Ambitious<br />Full Stack Developer</h2>
 
         <div>
-          <button className='text-white group text-sm border-2 px-3 py-2 my-2 flex items-center rounded hover:bg-[#ecdbba] hover:border-[#a3a9ae] hover:text-stone-700 hover:font-bold'>View Work
+          <a href='/portfolio' className='text-white group text-sm border-2 px-3 py-2 my-2 flex items-center rounded hover:bg-[#ecdbba] hover:border-[#a3a9ae] hover:text-stone-700 hover:font-bold w-36'>View Work
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-2' />
             </span>
-          </button>
+          </a>
         </div>
 
       </div>

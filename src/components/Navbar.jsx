@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
-// import Home from "./Home";
 import Logo from '../assets/initials.png';
 
 const Navbar = () => {
@@ -9,7 +8,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[70px] flex justify-between items-center px-4 bg-teal-900 text-stone-300 font-medium'>            
+    <div className='fixed w-full h-[70px] flex justify-between items-center px-4 text-stone-300 font-medium'>            
       <NavLink to="/portfolio-imnida">
         <img src={Logo} alt="my initials" style={{ width: '80px' }} />
       </NavLink>
