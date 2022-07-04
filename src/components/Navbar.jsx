@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[70px] flex justify-between items-center px-4 bg-teal-900 text-stone-300 font-medium'>            
-      <NavLink to="/">
+      <NavLink to="/portfolio-imnida">
         <img src={Logo} alt="my initials" style={{ width: '80px' }} />
       </NavLink>
 
