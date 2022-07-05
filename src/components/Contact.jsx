@@ -7,14 +7,14 @@ const Contact = () => {
 
         <div className='pb-8'>
           <p className='text-[#fdd978] text-4xl sm:text-6xl font-bold tracking-wide inline '>Contact</p>
-          <p className='text-[#ffc9dc] p-4'>Submit form the below or email me || charlene.kim927@gmail.com</p>
+          <p className='text-[#ffc9dc] p-4'>Submit form the below or email me || <a href="mailto:charlene.kim927@gmail.com" className='text-rose-400 hover:text-rose-300'>charlene.kim927@gmail.com</a></p>
         </div>
 
-        <input type="text" placeholder="Name" name="name" className='bg-stone-500 p-2 rounded'></input>
-        <input type="email" placeholder="Email" name="email" className='my-4 p-2 bg-stone-500 rounded'></input>
-        <textarea name="message" rows="10" placeholder='Message' className='bg-stone-500 p-2 rounded'></textarea>
+        <input type="text" placeholder="Name" name="name" className='text-rose-700 font-bold  placeholder:text-rose-300 p-2 rounded'></input>
+        <input type="email" placeholder="Email" name="email" className='text-rose-700 font-bold  placeholder:text-rose-300 my-4 p-2 rounded'></input>
+        <textarea name="message" rows="10" placeholder='Message' className='text-rose-700 font-bold  placeholder:text-rose-300 p-2 rounded'></textarea>
 
-        <button className=' px-3 py-2 mx-auto my-8 flex items-center bg-stone-300 rounded-lg text-emerald-700 font-bold text-lg hover:bg-stone-400 hover:text-shadow-lg'>Let's Collaborate</button>
+        <button className=' px-3 py-2 mx-auto my-8 flex items-center bg-stone-300 rounded-lg text-emerald-600 font-bold text-lg  hover:text-shadow-md shadow-lg hover:shadow-teal-400/50'>Let's Collaborate</button>
         
       </form>
       
