@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio-imnida/static/css/main.0bec324f.css",
+    "main.js": "/portfolio-imnida/static/js/main.7365d401.js",
+    "static/media/error.gif": "/portfolio-imnida/static/media/error.ae5dad5d07c4999635da.gif",
+    "static/media/forged.png": "/portfolio-imnida/static/media/forged.43528dd460c1c0c6092c.png",
+    "static/media/techh.png": "/portfolio-imnida/static/media/techh.88c3036eee09f0bb8bdd.png",
+    "static/media/duty.png": "/portfolio-imnida/static/media/duty.f9c5128203c559606090.png",
+    "static/media/avatar2.png": "/portfolio-imnida/static/media/avatar2.03e0e967af91c4368fb0.png",
+    "static/media/pokesearch.png": "/portfolio-imnida/static/media/pokesearch.188a5f6332cf0e5d1a3b.png",
+    "static/media/initials.png": "/portfolio-imnida/static/media/initials.bd6f45f0264fa2702832.png",
+    "index.html": "/portfolio-imnida/index.html",
+    "main.0bec324f.css.map": "/portfolio-imnida/static/css/main.0bec324f.css.map",
+    "main.7365d401.js.map": "/portfolio-imnida/static/js/main.7365d401.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bec324f.css",
+    "static/js/main.7365d401.js"
+  ]
+}
