@@ -36,9 +36,9 @@ const Portfolio = () => {
           <p className='py-2 border-b mx-8'><span className='font-bold'>Role</span>: Frontend & Backend</p>
         </div>
 
-          <div className='flex justify-between mx-16'>
-            <a href='https://github.com/VAalchemist/forged-ensemble' className=' bg-amber-100 text-sm text-center hover:text-rose-600 hover:text-base w-[100px] rounded-md font-bold  text-teal-700 my-8 mx-auto md:mx-0 py-3 '>Code</a>
-          <a href='/' className=' bg-amber-100 text-sm text-center hover:text-rose-600 hover:text-base w-[100px] rounded-md font-bold  text-teal-700 my-8 mx-auto md:mx-0 py-3 '>App</a>
+          <div className='flex justify-between mx-16 sm:mx-0'>
+            <a href='https://github.com/VAalchemist/forged-ensemble' className=' bg-amber-100 text-sm text-center hover:text-rose-600 hover:text-base w-[100px] sm:w-[80px] rounded-md font-bold  text-teal-700 my-8 mx-auto md:mx-0 py-3 '>Code</a>
+          <a href='/' className=' bg-amber-100 text-sm text-center hover:text-rose-600 hover:text-base sm:w-[100px] w-[80px] rounded-md font-bold  text-teal-700 my-8 mx-auto md:mx-0 py-3 '>App</a>
           </div>
         </div>
         
