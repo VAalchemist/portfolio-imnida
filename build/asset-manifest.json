@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-imnida/static/css/main.3d483bb6.css",
-    "main.js": "/portfolio-imnida/static/js/main.7acbe9d6.js",
+    "main.js": "/portfolio-imnida/static/js/main.491d0e37.js",
     "static/media/error.gif": "/portfolio-imnida/static/media/error.ae5dad5d07c4999635da.gif",
     "static/media/forged.png": "/portfolio-imnida/static/media/forged.43528dd460c1c0c6092c.png",
     "static/media/techh.png": "/portfolio-imnida/static/media/techh.88c3036eee09f0bb8bdd.png",
@@ -11,10 +11,10 @@
     "static/media/initials.png": "/portfolio-imnida/static/media/initials.bd6f45f0264fa2702832.png",
     "index.html": "/portfolio-imnida/index.html",
     "main.3d483bb6.css.map": "/portfolio-imnida/static/css/main.3d483bb6.css.map",
-    "main.7acbe9d6.js.map": "/portfolio-imnida/static/js/main.7acbe9d6.js.map"
+    "main.491d0e37.js.map": "/portfolio-imnida/static/js/main.491d0e37.js.map"
   },
   "entrypoints": [
     "static/css/main.3d483bb6.css",
-    "static/js/main.7acbe9d6.js"
+    "static/js/main.491d0e37.js"
   ]
 }
