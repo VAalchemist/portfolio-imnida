@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Home = () => {
@@ -13,11 +14,11 @@ const Home = () => {
         <h2 className='text-[#8D9ABC] text-3xl sm:text-7xl pb-4'>I'm an Ambitious<br />Full Stack Developer</h2>
 
         <div className='text-indigo-200 '>
-          <a href='/portfolio' className='group text-sm border-2 border-indigo-200 px-3 py-2 my-2 flex items-center rounded hover:border-[#192915] hover:text-[#192915] hover:font-bold w-36'>View Work
+          <Link to='/portfolio' className='group text-sm border-2 border-indigo-200 px-3 py-2 my-2 flex items-center rounded hover:border-[#192915] hover:text-[#192915] hover:font-bold w-36'>View Portfolio
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-2' />
             </span>
-          </a>
+          </Link>
         </div>
 
       </div>
