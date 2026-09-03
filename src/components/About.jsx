@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Me from '../assets/avatar2.png';
 
-const words = ['singing.', 'voice acting.', 'gaming.', 'sewing.', 'eating.'];
+const words = ['singing.', 'coding.', 'gaming.', 'sewing.', 'eating.'];
 
 function About() {
   const [wordIndex, setWordIndex] = useState(0);
@@ -40,7 +40,7 @@ function About() {
     >
       <div className="flex flex-col items-center w-full h-full md:pt-16 lg:pt-28">
         <div className="flex flex-col md:flex-row items-center mt-12">
-          <h1 className="text-[#FDD8A7] py-6 md:pr-6 text-4xl sm:text-6xl font-bold tracking-wide sm:inline">
+          <h1 className="text-[#90A875] py-6 md:pr-6 text-4xl sm:text-6xl font-bold tracking-wide sm:inline">
             About Me!
           </h1>
 
@@ -51,12 +51,12 @@ function About() {
           />
         </div>
 
-        <p className="text-[#e89b35] font-semibold text-center md:text-lg lg:text-xl py-2 px-12 max-w-[1000px]">
+        <p className="text-[#FDD8A7] font-semibold text-center md:text-lg lg:text-xl py-2 px-12 max-w-[1000px]">
           From the eclectic array of interests I acquired throughout the
-          decades of my existence, full stack development has eagerly entered
+          decades of my existence, voice acting has eagerly entered
           my arsenal of skills. My professional path has taken me through many
           twists and turns, yet I've always sought challenges and opportunities
-          that are meaningful to me. If I'm not tickling the ivory key caps,
+          that are meaningful to me. If I'm not in booth,
           you can find me skillfully enjoying{' '}
 
           <span className="md:text-3xl sm:text-2xl text-xl font-bold">
