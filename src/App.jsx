@@ -1,33 +1,34 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Resume from "./components/Resume";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import Error from "./components/Error";
-// import Footer from "./components/Footer";
 
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
+import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Error from './components/Error';
+// import Footer from './components/Footer';
 
 function App() {
-
-  
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar />
 
       <Routes>
-        <Route path="/portfolio-imnida" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
+
+        {/* Catch-all route for pages that don't exist */}
         <Route path="*" element={<Error />} />
       </Routes>
 
-      {/* <Footer /> */}      
+      {/* <Footer /> */}
     </Router>
   );
 }
 
 export default App;
+
