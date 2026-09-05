@@ -4,11 +4,11 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Contact = () => {
   return (
-    <div name="contact" className='w-full h-full sm:h-screen bg-[#72807A] flex justify-center items-center pt-28'>
+    <div name="contact" className='w-full h-full sm:h-screen bg-[#23322D] flex justify-center items-center pt-28'>
       <form method="POST" action="https://getform.io/f/de2d0bf5-9f19-40d2-bd26-9f0bff0f15d9" className='flex flex-col max-w-[600px] w-full max-h-lg h-full '>
 
         <div className='pb-8'>
-          <p className='text-[#192915] text-4xl sm:text-6xl font-bold tracking-wide inline '>Contact</p>
+          <p className='text-[#90A875] text-4xl sm:text-6xl font-bold tracking-wide inline '>Contact</p>
           <p className='text-[#8D9ABC] font-bold p-4'>Submit form the below or email me || <a href="mailto:charlene.kim927@gmail.com" className='text-[#192915] hover:text-indigo-200 hover:font-bold'>charlene.kim927@gmail.com</a></p>
         </div>
 

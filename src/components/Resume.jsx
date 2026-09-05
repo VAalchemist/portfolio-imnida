@@ -4,9 +4,9 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 function Resume() {
   return (
     <>
-      <div name="resume" className='w-full h-screen flex flex-col justify-center items-center bg-[#72807A] pt-20'>
+      <div name="resume" className='w-full h-screen flex flex-col justify-center items-center bg-[#2E4B47] pt-20'>
         
-        <h1 className='text-[#192915] tracking-widest font-bold text-4xl sm:text-6xl py-2'>Proficiencies</h1>
+        <h1 className='text-[#90A875] tracking-widest font-bold text-4xl sm:text-6xl py-2'>Proficiencies</h1>
 
         <div className='flex flex-col sm:flex-row justify-center items-center max-w-4xl w-full mt-16'>
           <div className='flex flex-col items-center text-[#192915] font-bold text-center md:text-lg lg:text-xl mx-4 max-w-[700px]'>
